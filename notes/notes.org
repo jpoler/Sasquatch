@@ -1,0 +1,10 @@
+* bencoding
+** strings
+   <base ten ASCII>:<string data>
+   e.g 4:spam
+** integers
+   i<base ten ASCII>e
+   can be negative
+   cannot be padded with zeroes
+   
+   
