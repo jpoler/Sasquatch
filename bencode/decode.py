@@ -79,13 +79,5 @@ if __name__ == '__main__':
     d = Decoder(text, b'info')
     print(d.decode())
     print(d.substrings)
-
-    shablam = hashlib.sha1()
-    shablam2 = shablam.copy()
-    
-    shablam.update(d.substrings[b'info'])
-    print(shablam.digest())
-    shablam2.update(d.substrings[b'info'][1:-1])
-    print(shablam2.digest())
     
 
