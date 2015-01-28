@@ -1,0 +1,13 @@
+# These task will obviously become far more granular as time proceeds
+
+# command-line
+[ ] set up architecture
+
+# bencoding
+[X] write a decoder
+
+[ ] hash info dict and store in a logical place (client object?)
+
+[ ] make tracker request
+
+[ ] connect to peers
