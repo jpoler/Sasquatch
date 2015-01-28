@@ -1,2 +1,2 @@
-# tit-borrent
+# Sasquatch
 An asyncronous bittorrent client
